@@ -1,5 +1,6 @@
 <!--   product  -->
 <?php
+$connect = mysqli_connect('mysql5037.site4now.net','a7c995_heroku','mysql1mysql1','db_a7c995_heroku');
     $item_id = $_GET['item_id'] ?? 1;
     foreach ($product->getData() as $item) :
         if ($item['item_id'] == $item_id) :
