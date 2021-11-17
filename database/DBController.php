@@ -4,11 +4,11 @@
 class DBController
 {
     // Database Connection Properties
-    protected $host = 'mysql5037.site4now.net';
-    protected $user = 'a7c995_heroku';
-    protected $password = 'mysql1msyql1';
-    protected $database = "db_a7c995_heroku";
-
+    //protected $host = 'mysql5037.site4now.net';
+    //protected $user = 'a7c995_heroku';
+    //protected $password = 'mysql1msyql1';
+    //protected $database = "db_a7c995_heroku";
+$connect = mysqli_connect('mysql5037.site4now.net','a7c995_heroku','mysql1mysql1','db_a7c995_heroku');
     // connection property
     public $con = null;
 
